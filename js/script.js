@@ -21,4 +21,6 @@ h2.classList.add("textHD");
 
 wrapper.prepend(h2);
 circles[0].replaceWith(hearts[0]); // заменгить круг на сердце
-console.log(wrapper);
+
+box.insertAdjacentHTML("beforeend", "<h2>hi</h2>"); //вставить html в конец или в начало документа
+console.log(box);
